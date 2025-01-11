@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures the webpage is responsive and adjusts to the screen width of the device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yorkcollegeuk</title>
+    <style>
+        ::backdrop {
+            background-color: blue;
+        }
+        /* Center aligns the h1 text and sets the font size to 200% of the default size */
+        h1 {
+            text-align: center;
+            font-size: 200%;
+        }
+        /* Hides elements with the class 'hidden' */
+        .hidden {
+            display: none;
+        }
+        /* Left aligns the text inside paragraph elements */
+        p {
+            text-align: left;
+        }
+        /* Sets the width of images to 75px and floats them to the left */
+        img {
+            width: 75px;
+            float: left;
+        }
+        /* Styles for the button with class 'button' */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: blue;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        /* Changes the background color of the button when hovered over */
+        .button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main heading with an image floated to the left -->
+    <h1><img src="york-college-logo.jpg" alt="york college logo" style="background-color: cyan;">Welcome to York College App</h1>
+    
+    <!-- Button that will show the hidden message when clicked -->
+    <button type="button">your time table</button>
+    <!-- Paragraph that is initially hidden and will be shown when the button is clicked -->
+    <p id="message" class="hidden">this</p>
+    <script>
+        // Adds an event listener to the button that shows the hidden message when clicked
+        document.querySelector("button").addEventListener("click", function() {
+            document.getElementById("message").style.display = "block";
+        });
+    </script>
+</body>
+</html>
