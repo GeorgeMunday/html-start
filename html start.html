@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yorkcollegeuk</title>
     <style>
-        ::backdrop {
-            background-color: blue;
-        }
+
         /* Center aligns the h1 text and sets the font size to 200% of the default size */
         h1 {
             text-align: center;
@@ -28,11 +26,10 @@
             float: left;
         }
         /* Styles for the button with class 'button' */
-        .button {
+        .showTableButton {
             display: inline-block;
             padding: 10px 20px;
             font-size: 16px;
-            color: blue;
             background-color: white;
             border: none;
             border-radius: 5px;
@@ -40,7 +37,7 @@
             text-align: center;
         }
         /* Changes the background color of the button when hovered over */
-        .button:hover {
+        .showTableButton:hover {
             background-color: red;
         }
     </style>
@@ -50,7 +47,7 @@
     <h1><img src="york-college-logo.jpg" alt="york college logo" style="background-color: cyan;">Welcome to York College App</h1>
     
     <!-- Button that will show the hidden message when clicked -->
-    <button type="button">your time table</button>
+    <button class="showTableButton" type="button">your time table</button>
     <!-- Paragraph that is initially hidden and will be shown when the button is clicked -->
     <p id="message" class="hidden">this</p>
     <script>
