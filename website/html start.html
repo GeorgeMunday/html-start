@@ -2,24 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Ensures the webpage is responsive and adjusts to the screen width of the device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yorkcollegeuk</title>
+    <title>my website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Main heading with an image floated to the left -->
-    <h1><img src="york-college-logo.jpg" alt="york college logo">Welcome to York College App</h1>
-    
-    <!-- Button that will show the hidden message when clicked -->
-    <button class="showTableButton" type="button">your time table</button>
-    <!-- Paragraph that is initially hidden and will be shown when the button is clicked -->
-    <p id="message" class="hidden">this</p>
-    <script>
-        // Adds an event listener to the button that shows the hidden message when clicked
-        document.querySelector("button").addEventListener("click", function() {
-            document.getElementById("message").style.display = "block";
-        });
-    </script>
+    <div class="header">
+        <h1>welcome to my website</h1>
+    </div>
+    <div class="navbar">
+        <a href="learningcss.html">learning css</a>
+        <a href="learninghtml.html">learning html</a>
+        <a href="learningpython.html">learning python</a>
+        <a href="learningcsharp.html">learning c#</a>
+    </div>
+    <div class = "main">
+        <p>This is a wesite of all the coding languages i am learning</p>
+    </div>
 </body>
 </html>
