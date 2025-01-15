@@ -25,7 +25,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 79px;
+    padding: 20px 70px;
     text-decoration: none;
 }
 
@@ -37,12 +37,18 @@ body {
 /* Main content styling */
 .main {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .main p {
     font-size: 18px;
     color: #333;
+}
+
+.main img {
+    width: 600px;
+    height: 600px;
+    float: left;
 }
 
 /* Responsive design for smaller screens */

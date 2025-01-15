@@ -25,7 +25,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 79px;
+    padding: 20px 70px;
     text-decoration: none;
 }
 
@@ -37,18 +37,17 @@ body {
 /* Main content styling */
 .main {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .main p {
     font-size: 18px;
     color: #333;
 }
-
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
     .navbar a {
-        float: none;
+        float: center;
         width: 100%;
     }
 }

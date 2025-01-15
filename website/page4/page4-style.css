@@ -44,6 +44,22 @@ body {
     font-size: 18px;
     color: #333;
 }
+.banner {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid red;
+    font-weight: bold;
+    font-size: 24px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        black,
+        black 10px,
+        yellow 10px,
+        yellow 20px
+    );
+}
 
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
@@ -52,3 +68,4 @@ body {
         width: 100%;
     }
 }
+/* Banner styling */
